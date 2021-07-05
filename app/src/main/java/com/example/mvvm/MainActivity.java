@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding activityMainBinding= DataBindingUtil.setContentView(this,R.layout.activity_main);
         activityMainBinding.setViewModel(new AppViewModel());
         activityMainBinding.executePendingBindings();
+        //hello main activity
     }
 
     @BindingAdapter({"toastMessage"})
